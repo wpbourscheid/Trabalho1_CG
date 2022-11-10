@@ -26,6 +26,8 @@ void main() {
 }
 `;
 
+
+
 var vs_texture = `#version 300 es
 in vec4 a_position;
 in vec2 a_texcoord;
@@ -411,6 +413,10 @@ var config = {
   camera_1: false,
   camera_2: false,
   camera_3: false,
+
+
+  //montar os objetos na tela
+  
 };
 
 const moveVertice = function () {
